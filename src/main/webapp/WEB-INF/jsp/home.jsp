@@ -1,78 +1,38 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-
-<title>CookBook</title>
-</head>
-
+<!DOCTYPE html>
+<html>
 <body>
 
-    
- <div id="page">
-		
-        <div id="header">
-            
-      <link rel="stylesheet" type="text/css" href="image/style.css" /></div>
-      
-  <div id="bar" style="width: 735px; height: 60px">
-  <center>
-      <input id="Button1" type="button" value="Início"/>
-      <input id="Button2" type="button" value="Criar"/>
-      <input id="Button3" type="button" value="Listar"/>
-      <input id="Button4" type="button" value="Detalhes" style="width: 66px; "/>
-     </center>	
-  </div>
-   <div style="height: 466px">
-   <!-- Conteudo -->
-  <h1 style="width: 695px; ">
-  Benvindos ao CookBook</h1>
-  
-  <center>
-<p align="justify" style="width:200px;">
-Seu texto
-</p>
-</center>
+<div id="container" style="width:800px">
+
+<div id="header" style="background-color:#C0C0C0;">
  
-<img src="C:\Users\Mario\cookbook\src\main\webapp\WEB-INF\jsp\image\tim.pt-br" alt="O ecrã Iniciar
-Tudo o que é mais importante para si está no novo ecrã Iniciar. Os mosaicos no ecrã Iniciar estão ligados a pessoas, aplicações, pastas, fotografias ou Web sites e apresentam as informações mais recentes para, de relance, estar sempre a par das novidades.
+<h1 style="margin-bottom:0;">COOKBOOK  <form method="get" action="http://www.google.com/"> 
+<table cellpadding="0px" cellspacing="0px"> 
+<tr> 
 
-Rato, teclado e agora também o toque
-O Windows 8 é perfeito para PCs com apenas um rato e teclado, com ecrã tátil ou com todos estes. Qualquer que seja o seu PC, descobrirá formas rápidas e simples de alternar entre aplicações, posicionar itens e passar facilmente de um lado para o outro.
+</td>
 
-Novos PCs
-Poderá encontrar fantásticos novos PCs de todo o tipo, incluindo tablets elegantes e leves, conversíveis e portáteis.">
+<FORM method=GET action=http://www.google.com/search><input type=hidden name=sitesearch value=http://dicaslegais.weebly.com/><input type=text name=q size=20><input type=submit value=Procurar>
+</td>
+</tr>
+</table>
+</form>   
 
+   </h1></div>
 
-<img src="C:\Users\Mario\cookbook\src\main\webapp\WEB-INF\jsp\image\tim.pt-br" alt="O ecrã Iniciar
-Tudo o que é mais importante para si está no novo ecrã Iniciar. Os mosaicos no ecrã Iniciar estão ligados a pessoas, aplicações, pastas, fotografias ou Web sites e apresentam as informações mais recentes para, de relance, estar sempre a par das novidades.
+<div id="menu" style="background-color:#C0C0C0;height:400px;width:150px;float:left;">
+<input type="button" value="Criar Receita" onclick="JavaScript:alert('Thanks... I feel much better now!')" />
+<input type="button" value="Listar Receita" onclick="JavaScript:alert('Thanks... I feel much better now!')" />
+<input type="button" value="Detalhes Receita" onclick="JavaScript:alert('Thanks... I feel much better now!')" />
+</div>
 
-Rato, teclado e agora também o toque
-O Windows 8 é perfeito para PCs com apenas um rato e teclado, com ecrã tátil ou com todos estes. Qualquer que seja o seu PC, descobrirá formas rápidas e simples de alternar entre aplicações, posicionar itens e passar facilmente de um lado para o outro.
+<div id="content" style="background-color:#EEEEEE;height:200px;width:400px;float:left;">
+Ainda em Estudo</div>
 
-Novos PCs
-Poderá encontrar fantásticos novos PCs de todo o tipo, incluindo tablets elegantes e leves, conversíveis e portáteis.">
+<div id="footer" style="background-color:#C0C0C0;clear:both;text-align:center;">
+Copyright © ULHT COOKBOOK-ES</div>
 
-
-<img src="C:\Users\Mario\cookbook\src\main\webapp\WEB-INF\jsp\image\tim.pt-br" alt="O ecrã Iniciar
-Tudo o que é mais importante para si está no novo ecrã Iniciar. Os mosaicos no ecrã Iniciar estão ligados a pessoas, aplicações, pastas, fotografias ou Web sites e apresentam as informações mais recentes para, de relance, estar sempre a par das novidades.
-
-Rato, teclado e agora também o toque
-O Windows 8 é perfeito para PCs com apenas um rato e teclado, com ecrã tátil ou com todos estes. Qualquer que seja o seu PC, descobrirá formas rápidas e simples de alternar entre aplicações, posicionar itens e passar facilmente de um lado para o outro.
-
-Novos PCs
-Poderá encontrar fantásticos novos PCs de todo o tipo, incluindo tablets elegantes e leves, conversíveis e portáteis.">
-
-
-
-
-
-
-
+</div>
 
 </body>
 </html>
-
- 
-        

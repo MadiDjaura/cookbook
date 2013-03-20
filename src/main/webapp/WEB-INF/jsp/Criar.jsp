@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <script src="http://www.jotform.com/min/g=jotform&3.1.92" type="text/javascript"></script>
 <script type="text/javascript">
 JotForm.init();
@@ -32,15 +34,13 @@ font-size:12px;
 <ul class="form-section">
 <li id="cid_1" class="form-input-wide"><div class="form-header-group" style="height: 35px; ">
 <h2 id="header_1" class="form-header">
-Listar Receitas
+Criar Receitas
 </h2>
 </div>
 </li>
 <li class="form-line" id="id_3">
-<label class="form-label-left" id="label_3" for="input_3"> Titulo? 
-</label>
-<div id="cid_3" class="form-input">
-
+<label class="form-label-left" id="label_3" for="input_3"> Titulo? </label><div id="cid_3" class="form-input">
+<input type="text" class="form-textbox" id="input_3" name="q3_ign" size="20" maxlength="100" />
 </div>
 </li>
 <div id="cid_3" class="form-input">
@@ -49,27 +49,29 @@ Listar Receitas
 
 
 <li class="form-line" id="id_4">
-<label class="form-label-left" id="label_4" for="input_4"> Problema? </label>
+<label class="form-label-left" id="label_4" for="input_4"> Problema? </label><div id="cid_4" class="form-input">
+<input type="text" class="form-textbox" id="input_4" name="q4_class4" size="20" maxlength="100" />
+</div>
 </li>
 
 <li class="form-line" id="id_4">
-<label class="form-label-left" id="label_4" for="input_4"> Autor? </label>
-</li>
-
-<li class="form-line" id="id_5">
-<label class="form-label-left" id="label_18" for="input_18"> Solução? </label>
-<div id="cid_18" class="form-input">
-
-
+<label class="form-label-left" id="label_4" for="input_4"> Autor? </label><div id="cid_4" class="form-input">
+<input type="text" class="form-textbox" id="input_4" name="q4_class4" size="20" maxlength="100" />
 </div>
 </li>
-<li class="form-line" id="id_19"><div id="cid_19" class="form-input-wide">
-<div style="margin-left:156px" class="form-buttons-wrapper">
-<button id="input_19" type="submit" class="form-submit-button">
-Criar</button>
 
+
+
+
+<li class="form-line" id="id_5">
+<label class="form-label-left" id="label_18" for="input_18"> Solução? </label><div id="cid_18" class="form-input">
+<textarea id="input_18" class="form-textarea" name="q18_additionalComments" cols="40" rows="6"></textarea>
+</div>
+</li>
+<li class="form-line" id="id_19"><div id="cid_19" class="form-input-wide"><div style="margin-left:156px" class="form-buttons-wrapper">
 <button id="input_19" type="submit" class="form-submit-button">
-Voltar</button>
+Enviar</button>
+
 
 
 
